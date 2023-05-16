@@ -83,13 +83,14 @@ let findAMax=[123,5436,45784,1234,34,65,234125,645,3452,13216,49]
 // //Expect
 // // 234125
 console.log('===================Question #4')
-const findLargest = (anArray) => {for (let i=1; i < anArray.length; i++){
+const findLargest = (anArray) => {
     let largest = anArray[0]
+    for (let i=1; i < anArray.length; i++){
     if (largest < anArray[i]) {
         largest = anArray[i]
     } 
-    console.log(largest)
-}
+    
+} console.log(largest)
 } 
 
 findLargest(findAMax)
